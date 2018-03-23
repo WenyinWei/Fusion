@@ -29,6 +29,30 @@ Let's start with a sub section.
 \eta(S_f+S_B+S_k) \geq S_B +S_k
 ~
 
+Just alpha particles' energy is used to self-heat the reactor.
+
+Magnetic and inertia ignition conditions are different.
+
+~ Equation{caption:Ignition condition}
+\frac{1}{5}S_{DT}\geq \frac{3n_eT}{\tau_E}+S_B
+~
+
+~ Equation
+n\tau_E\geq \frac{3T}{\frac{1}{20}<\sigma\nu>_{DT}E_{DT}-\frac{S_B}{n^2}}
+~
+~ Equation
+nT\tau_E\geq \frac{3T^2}{\frac{1}{20}<\sigma \nu>_{DT}E_{DT}}~3*10^{21}\ keV\ m^{-3}\ s
+~
+物理增益因子$Q$
+~ Equation
+Q=\frac{net\ thermal\ power\ out}{heating\ power\ in}=\frac{P_{out}-P_{in}}{P_{in}}
+~
+工程增益因子$Q_E$
+~ Equation
+Q_E=\frac{net\ thermal\ power\ out}{electrix\ power\ in}
+~
+
+ITER wants 400 MW power (When Q=10).
 
 "If you mean you think it is my job to go into the secret passage first, O
 Thorin Thrain's son Oakenshield, may your beard grow ever longer," he
