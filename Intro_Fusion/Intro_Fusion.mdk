@@ -49,14 +49,23 @@ Q=\frac{net\ thermal\ power\ out}{heating\ power\ in}=\frac{P_{out}-P_{in}}{P_{i
 ~
 工程增益因子$Q_E$
 ~ Equation
-Q_E=\frac{net\ thermal\ power\ out}{electrix\ power\ in}
+Q_E=\frac{net\ electric\ power\ out}{electric\ power\ in}
 ~
 
 ITER wants 400 MW power (When Q=10).
 
-"If you mean you think it is my job to go into the secret passage first, O
-Thorin Thrain's son Oakenshield, may your beard grow ever longer," he
-said crossly, "say so at once and have done!"
+两个平衡点选温度小的,因为各种考虑,稳定性\对材料的考验等.
+找到平衡点后要确认其是否稳定(被扰动离开指点后能不能回到原来的状态).
+
+
+
+
+
+
+
+
+
+
 
 ## A description
 
