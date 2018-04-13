@@ -20,7 +20,9 @@ Bibliography  : example.bib
 
 # Introduction     { #sec-intro }
 
-Let's start with a sub section.
+![PowerDensity]
+
+[PowerDensity]: images/PowerDensity.PNG "PowerDensity" { width:auto; max-width:90% }
 
 # 聚变功率平衡
 
@@ -58,68 +60,51 @@ ITER wants 400 MW power (When Q=10).
 找到平衡点后要确认其是否稳定(被扰动离开指点后能不能回到原来的状态).
 
 
+## Review
+
+- 加热水平  
+$T>10 keV$ 客服静电力
+- 约束水平  
+$n\tau_E>10^{20} m^{-3} s$ Lawson Criteria & Ignition Condition  
+$n\tau_E T>10^{21} m^{-3} s keV$ 三重积
+
+# 可能的约束方式
+
+- 固体容器
+- 盈利
+- 惯性
+- 电磁场
+- 电磁波
+- ....
+
+## 磁约束基本思想
+- 1946年, G. Thomson 和 M. Balckman 申请热核电站专利,简单的磁约束.
+- 1946年, P. Thonemann 开始研究箍缩效应.  
+衍生出 (1) Z Pinch and (2) Theta Pich.  
+Z Pinch Instabilities: 扭曲不稳定性, 夹断不稳定性.(似乎可以通过加 Z 向磁场客服这两个不稳定性,其张力可以克服)  
+Solutions: (1)外层超优良的导体壁,
+
+环形箍缩(加了等离子体环向电流和环向磁场): 和托卡马克的差别在于磁压强的大小.
+
+反场箍缩(Reverse Field Pinch): 环向磁场内外方向相反,外界投入的磁场比较小,原则上可以用比较小的磁场投入获得较高的磁压强.等离子体自身电流产生的场非常重要.
+
+紧凑环(完全依靠自身电流的磁场,所以中间啥都没有):
+
+ (1) 球马克
+  
+ (2) FRC (Field Reverse Configuration) 场反位型
+
+用紧凑环虽然参数不够高,但是可以作为注入燃料或者给惯性约束提供靶.
+
+箍缩可以产生快中子,但是它产生的不是各向异性中子,说明是箍缩中的快离子打出来的.不是真的大量的聚变反应.
+
+Theta 箍缩的思想主要用到磁镜上了.
 
 
 
 
 
 
-
-
-
-## A description
-
-I suppose hobbits need some description nowadays, since they have become
-rare and shy of the Big People, as they call us. They are (or were) a
-little people, about half our height, and smaller than the bearded
-Dwarves. Hobbits have no beards. There is little or no magic about them,
-except the ordinary everyday sort which helps them to disappear quietly
-and quickly when large stupid folk like you and me come blundering along,
-making a noise like elephants which they can hear a mile off. They are
-inclined to be fat in the stomach; they dress in bright colors (chiefly
-green and yellow);
-
-And suddenly first one and then another began to sing as they played,
-deep-throated singing of the dwarves in the deep places of their ancient
-homes; and this is like a fragment of their song, if it can be like their
-song without their music. \[...\] As they sang the hobbit felt the love
-of beautiful things made by hands and by cunning and by magic moving
-through him, a fierce and jealous love, the desire of the hearts of
-dwarves. Then something Tookish woke up inside him, and he wished to go
-and see the great mountains, and hear the pine-trees and the waterfalls,
-and explore the caves, and wear a sword instead of a walking-stick. He
-looked out of the window. The stars were out in a dark sky above the
-trees. He thought of the jewels of the dwarves shining in dark caverns.
-Suddenly in the wood beyond The Water a flame leapt up -- probably
-somebody lighting a wood-fire -- and he thought of plundering dragons
-settling on his quiet Hill and kindling it all to flames. He shuddered;
-and very quickly he was plain Mr. Baggins of Bag-End, Under-Hill, again.
-He got up trembling.
-
-
-~ Lemma { caption:"Another lemma" }
-There is little or no magic about them, except the ordinary everyday sort
-which helps them to disappear quietly and quickly when large stupid folk
-like you and me come blundering along, making a noise like elephants
-which they can hear a mile off.
-~
-
-And suddenly first one and then another began to sing as they played,
-deep-throated singing of the dwarves in the deep places of their ancient
-homes; and this is like a fragment of their song, if it can be like their
-song without their music. \[...\] As they sang the hobbit felt the love
-of beautiful things made by hands and by cunning and by magic moving
-through him, a fierce and jealous love, the desire of the hearts of
-dwarves. Then something Tookish woke up inside him, and he wished to go
-and see the great mountains, and hear the pine-trees and the waterfalls,
-and explore the caves, and wear a sword instead of a walking-stick. He
-looked out of the window. The stars were out in a dark sky above the
-trees. He thought of the jewels of the dwarves shining in dark caverns.
-Suddenly in the wood beyond The Water a flame leapt up -- probably
-somebody lighting a wood-fire -- and he thought of plundering dragons
-settling on his quiet Hill and kindling it all to flames. He shuddered;
-and very quickly he was plain Mr. Baggins of Bag-End, Under-Hill, again.
-He got up trembling.
 
 [BIB]
 
