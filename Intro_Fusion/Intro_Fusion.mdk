@@ -106,6 +106,105 @@ Theta 箍缩的思想主要用到磁镜上了.->磁镜->最小场位型->串接�
 
 
 
+
+
+# 聚变电站
+
+## 聚变反应
+## 聚变燃料
+
+- 天然存在(p,D,He3,Li6,B11)  
+  1.不需要复杂的燃料循环系统  
+  2.燃料注入系统
+- 人工合成(T)
+
+## 聚变产物
+
+- 不含中子  
+1.如何取出产物的能量而不取反应物的能量
+直接转换系统
+磁扩展器、多步离子收集器
+不需要复杂的屏蔽系统
+
+- 含中子  
+需要从中子动能转化为热能然后再发电 ，卡诺效率的限制
+需要更复杂的屏蔽系统
+相对的有好处：高能中子产氚及其他（非聚变）用途，提供了一种不影响约束体系的取能方式
+
+## 堆芯结构，层层包裹
+TBM（Blanket）
+
+
+## 热和离子排出
+### 壁材料
+
+- 结构损伤小
+- 高中子透明度
+- 较低的热辐射
+
+### 包层
+
+- 最主要的能量沉积区（冷却）
+- 氚增殖区
+
+#### 增殖材料
+
+增殖材料：含锂熔盐、陶瓷、液态金属  
+中子倍增：铍、铅
+
+- 部分屏蔽作用
+
+#### 冷却剂
+
+#### 结构材料
+
+- 铁素不锈钢、钒合金、碳化硅
+- 低活化、与冷却剂良好相容性
+
+### 磁体
+
+#### 超导磁体
+
+#### 非超导磁体
+
+### 层状结构带来的困难性
+
+
+
+## 工程问题
+A Report to the Fusion Energy Sciences Advisory Committee(FESAC)
+#### Tier 1 
+ Plasma Facing Components
+ 
+  Materials
+  
+  ####  Tier 2
+Off-normal events,
+
+Fuel cycle
+
+Plasma-wall interactions
+
+Integrated, high performance burning plasmas
+
+Power extraction
+
+Theory and Predictive modeling 
+
+Measurement 
+
+#### Tier 3
+????
+
+###   材料
+
+- 第一壁材料
+- 包层材料（增殖，倍增，冷却）
+- 磁体材料
+- 结构材料
+- 屏蔽材料
+
+
 [BIB]
 
 &pagebreak;
