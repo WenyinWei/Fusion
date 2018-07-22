@@ -1,0 +1,170 @@
+\documentclass[UTF8,a4paper,10pt]{ctexart}
+    \usepackage[left=2.50cm, right=2.50cm, top=2.50cm, bottom=2.50cm]{geometry}
+    
+    % -- text font --
+    % compile using Xelatex
+    
+    %\setmainfont{Microsoft YaHei}  % 微软雅黑
+    %\setmainfont{YouYuan}  % 幼圆
+    %\setmainfont{NSimSun}  % 新宋体
+    %\setmainfont{KaiTi}    % 楷体
+    %\setmainfont{SimSun}   % 宋体
+    %\setmainfont{SimHei}   % 黑体
+    
+    \usepackage{times}
+    %\usepackage{mathpazo}
+    %\usepackage{fourier}
+    %\usepackage{charter}
+    %\usepackage{helvet}
+    
+    \usepackage{amsmath, amsfonts, amssymb} % math equations, symbols
+    \usepackage[english]{babel}
+    \usepackage{color}      % color content
+    \usepackage{graphicx}   % import figures
+    \usepackage{url}        % hyperlinks
+    \usepackage{bm}         % bold type for equations
+    \usepackage{multirow}
+    \usepackage{booktabs}
+    \usepackage{epstopdf}
+    \usepackage{epsfig}
+    
+    \usepackage{listings}  % 这一段都是拿来写代码的
+    \usepackage{xcolor}
+    \lstset{
+        numbers=left,
+        numberstyle= \tiny,
+        keywordstyle= \color{ blue!70},
+        commentstyle= \color{red!50!green!50!blue!50},
+        frame=shadowbox, % 阴影效果
+        rulesepcolor= \color{ red!20!green!20!blue!20} ,
+        xleftmargin=2em,xrightmargin=2em, aboveskip=1em,
+        framexleftmargin=2em
+    }
+    
+    
+    \usepackage{hyperref}
+    \makeatletter
+    \def\UrlAlphabet{%
+          \do\a\do\b\do\c\do\d\do\e\do\f\do\g\do\h\do\i\do\j%
+          \do\k\do\l\do\m\do\n\do\o\do\p\do\q\do\r\do\s\do\t%
+          \do\u\do\v\do\w\do\x\do\y\do\z\do\A\do\B\do\C\do\D%
+          \do\E\do\F\do\G\do\H\do\I\do\J\do\K\do\L\do\M\do\N%
+          \do\O\do\P\do\Q\do\R\do\S\do\T\do\U\do\V\do\W\do\X%
+          \do\Y\do\Z}
+    \def\UrlDigits{\do\1\do\2\do\3\do\4\do\5\do\6\do\7\do\8\do\9\do\0}
+    \g@addto@macro{\UrlBreaks}{\UrlOrds}
+    \g@addto@macro{\UrlBreaks}{\UrlAlphabet}
+    \g@addto@macro{\UrlBreaks}{\UrlDigits}
+    \makeatother            % 让网址可以自动换行
+    
+    \usepackage{fancyhdr}   % 设置页眉、页脚
+    %\pagestyle{fancy}
+    \lhead{}
+    \chead{}
+    \lfoot{}
+    \cfoot{}
+    \rfoot{}
+    
+    \usepackage{bookmark}
+    \usepackage{hyperref}   % bookmarks
+    \hypersetup{ bookmarks, unicode,hidelinks} % unicode,不加hidelink目录会变成红色的
+    \usepackage{cite}   %引用
+    
+    
+    \title{Homework 2 for Introduction of Fusion Energy}
+    \author{魏文崟 2016011698}
+    \date{\today}
+    
+    \begin{document}
+        \maketitle
+        \thispagestyle{fancy}
+
+    \setlength{\oddsidemargin}{ 1cm}  % 3.17cm - 1 inch
+    \setlength{\evensidemargin}{\oddsidemargin}
+    \setlength{\textwidth}{13.50cm}
+    \vspace{-.8cm}
+    \begin{center}
+    %\parbox{\textwidth}{
+    %{\heiti Abstract}\quad Notes for everything important.
+    %}
+	\end{center}
+
+
+
+
+
+    \setlength{\oddsidemargin}{-.5cm}  % 3.17cm - 1 inch
+    \setlength{\evensidemargin}{\oddsidemargin}
+    \setlength{\textwidth}{17.00cm}
+
+%\tableofcontents   目录
+
+
+
+\section*{Question 1}
+采用 Lawson 定义的能量所得和所失（即 Lawson 判据对应能量得失相当），计算在点火条件下能量所得和所失之比。（注意，不是课件中定义的 Q）
+
+本题中认为点火自持条件时1/5的聚变释放能量作为$\alpha$原子核自持加热.
+即如下所示:
+\begin{equation}
+    n\tau_E\geq\frac{3T}{\frac{1}{20}\left \langle \sigma v \right \rangle E_{DT}-\frac{S_B}{n^2}}
+\end{equation}
+
+本题中假定,$\eta=\frac{1}{3}$,等离子体的有效电荷数$Z_{eff}=1$,在$n\tau=1.5*10^20m^{-3}s$时,解得$T=20.6729keV$,还在$\left \langle \sigma v \right \rangle$附近可以接受的范围.
+\begin{equation*}
+    Z_{eff}=\sum\limits_i Z_i^2\frac{n_i}{n_e}
+\end{equation*}
+公式中的求和号下 $i$ 包含所有离子的所有电离态。纯的氢等离子体的$Z_{eff}=1$，这里做理想处理.
+
+如果采用Lawson规定的能量收益比(其实我不太赞成这里用Lawson的定义来计算,因为Lawson并没有认为那1/5的能量自加热了,后面的人改进的）.
+
+\begin{equation}
+    Q=\frac{\eta(\frac{1}{4}n^2\left \langle \sigma v \right \rangle E_f+\frac{3nT}{\tau_E}+S_B)}{\frac{3nT}{\tau_E}+S_B}
+\end{equation}
+
+带入之前算得到值,
+\begin{equation}
+    Q=\frac{\frac{17.59 1.1 T^2}{10^{24} 12}+\frac{T}{1.5 10^{20}}+\frac{1.625 \sqrt{T}}{3\ 10^{38}}}{\frac{3 T}{1.5 10^{20}}+\frac{1.625 \sqrt{T}}{10^{38}}}
+\end{equation}
+
+计算得$Q比较精确地等于2$.
+\section*{Question 2}
+对于不含催化反应的D-D聚变和完全催化的D-D聚变反应，分别计算其点火条件。
+
+
+本题解答中所用数据$\left \langle \sigma v \right \rangle$来源于 J.Rand McNally, Jr., K.E. Rother, R.D. Sharp, Fusion Reactivity Graphs and Tables for Charge and Particle Reactions, Oak Ridge National Laboratory, ORNL/TM-6914, Oak Ridge, TN(1979).
+
+$Q_{dd,t}$与$Q_{dd,h}$两个反应道发生几率差不多,将其Q值做平均为 3.65 MeV,两个反应道的热核反应率直接相加,带入公式得:
+
+点火条件
+\begin{equation}
+    \frac{3 T}{\frac{1}{20} 3.65* 1000 \left \langle \sigma v \right \rangle_{dd}-1.625*10^{38}* 6.24151* 10^{15} \sqrt{1000 T}}
+\end{equation}
+
+经测试,DD 完全不催化反应如果考虑韧致辐射,在 1-1000 keV 内上式会呈现负值,$n\tau<0$.遂将韧致辐射项简化,点火条件可得$n\tau \geq 3.28692*10^{22}$.为验证计算正确性,代入 DT 反应数据,可得点火条件$n\tau \geq 1.57133*10^{20}$,正确性得证.
+
+\begin{figure}[!htbp]
+	\begin{center}
+		\includegraphics[width=1\linewidth]{Ign.png}
+		\caption{Ignition Condition}
+	\end{center}
+	\vspace{-0.5em}
+\end{figure}
+
+
+DD 完全催化反应考虑韧致辐射结果大于零,可以考虑. 6 个 D 反应生成稳定的产物,产能 43.2 MeV;那么两个 D 反应可以看做产能 14.4 MeV.代入数据得点火条件$n\tau \geq 2.20731*10^{22}$,约为不催化条件下的 $60\%$.
+
+
+
+\end{document}
+
+\iffalse
+\begin{figure}[!htbp]
+	\begin{center}
+		\includegraphics[width=0.32\linewidth]{cusp.jpg}
+		\caption{An image of Lena.}
+		\label{Itisjustalabel}
+	\end{center}
+	\vspace{-0.5em}
+\end{figure}
+\fi
